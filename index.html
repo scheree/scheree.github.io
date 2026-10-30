@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Krokoboss Cup | Spieler-Ranking</title>
+<meta name="description" content="Alle 40 Spieler im Vergleich. Sortiere die Cup-Statistiken nach Kills, K/D, ACS und mehr.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><a class="brand" href="#"><span>KROKOBOSS</span> <small>VALORANT INVITATIONAL 2026</small></a><a class="source" href="https://krokoboss.com/#spielplan" target="_blank" rel="noopener">ZUM SPIELPLAN ↗</a></header>
+<main>
+<section class="ranking" aria-labelledby="ranking-title"><div class="section-heading"><h2 id="ranking-title">SPIELER-RANKING</h2><span class="badge">DATENSTAND 30.10.2026</span></div>
+<div class="controls"><label class="search"><span>SPIELER SUCHEN</span><input id="search" type="search" placeholder="Name eingeben …" autocomplete="off"></label><label><span>TEAM</span><select id="team"><option value="">Alle Teams</option></select></label><button id="reset" class="reset">Zurücksetzen ↺</button></div>
+<div class="table-info"><span id="count" aria-live="polite"></span><span id="sort-info"></span></div>
+<div class="table-wrap" tabindex="0" aria-label="Spielerstatistiken, horizontal scrollbar"><table><thead><tr><th class="position" scope="col">#</th><th scope="col" aria-sort="none"><button data-key="name">SPIELER <i></i></button></th><th scope="col" aria-sort="none"><button data-key="team">TEAM <i></i></button></th><th scope="col" aria-sort="none"><button data-key="maps">MAPS <i></i></button></th><th scope="col" aria-sort="descending"><button data-key="kills">KILLS <i></i></button></th><th scope="col" aria-sort="none"><button data-key="deaths">DEATHS <i></i></button></th><th scope="col" aria-sort="none"><button data-key="assists">ASSISTS <i></i></button></th><th scope="col" aria-sort="none"><button data-key="kd">K/D <i></i></button></th><th scope="col" aria-sort="none"><button data-key="acs">Ø ACS <i></i></button></th></tr></thead><tbody id="rows"></tbody></table><p id="empty" hidden>Keine Spieler gefunden. Passe deine Suche oder den Teamfilter an.</p></div>
+<p class="hint">Spaltenüberschrift anklicken zum Sortieren. Erneut klicken kehrt die Reihenfolge um.</p>
+</section>
+</main><footer><span>KROKOBOSS <small> / FAN-AUSWERTUNG</small></span><a href="https://krokoboss.com/#spielplan" target="_blank" rel="noopener">Quelle: krokoboss.com ↗</a></footer>
+<script src="data.js"></script><script src="app.js"></script>
+</body></html>
